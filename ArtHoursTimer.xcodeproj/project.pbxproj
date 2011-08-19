@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AC9F0CD13FED7950042155C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC9F0CC13FED7950042155C /* Cocoa.framework */; };
+		8AC9F0D713FED7950042155C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9F0D513FED7950042155C /* InfoPlist.strings */; };
+		8AC9F0DA13FED7950042155C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9F0D913FED7950042155C /* main.m */; };
+		8AC9F0DD13FED7950042155C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9F0DB13FED7950042155C /* Credits.rtf */; };
+		8AC9F0E013FED7950042155C /* ArtHoursTimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9F0DF13FED7950042155C /* ArtHoursTimerAppDelegate.m */; };
+		8AC9F0E313FED7950042155C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9F0E113FED7950042155C /* MainMenu.xib */; };
+		8AC9F0E613FED7950042155C /* ArtHoursTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9F0E413FED7950042155C /* ArtHoursTimer.xcdatamodeld */; };
+		8AC9F0ED13FED7960042155C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC9F0CC13FED7950042155C /* Cocoa.framework */; };
+		8AC9F0F513FED7960042155C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9F0F313FED7960042155C /* InfoPlist.strings */; };
+		8AC9F0F813FED7960042155C /* ArtHoursTimerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9F0F713FED7960042155C /* ArtHoursTimerTests.h */; };
+		8AC9F0FA13FED7960042155C /* ArtHoursTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9F0F913FED7960042155C /* ArtHoursTimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AC9F0EE13FED7960042155C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AC9F0BF13FED7950042155C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AC9F0C713FED7950042155C;
+			remoteInfo = ArtHoursTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AC9F0C813FED7950042155C /* ArtHoursTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtHoursTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC9F0CC13FED7950042155C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8AC9F0CF13FED7950042155C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8AC9F0D013FED7950042155C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8AC9F0D113FED7950042155C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AC9F0D413FED7950042155C /* ArtHoursTimer-Info.plist */ = {isa = PBXFileReference; path = "ArtHoursTimer-Info.plist"; sourceTree = "<group>"; };
+		8AC9F0D613FED7950042155C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AC9F0D813FED7950042155C /* ArtHoursTimer-Prefix.pch */ = {isa = PBXFileReference; path = "ArtHoursTimer-Prefix.pch"; sourceTree = "<group>"; };
+		8AC9F0D913FED7950042155C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AC9F0DC13FED7950042155C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8AC9F0DE13FED7950042155C /* ArtHoursTimerAppDelegate.h */ = {isa = PBXFileReference; path = ArtHoursTimerAppDelegate.h; sourceTree = "<group>"; };
+		8AC9F0DF13FED7950042155C /* ArtHoursTimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtHoursTimerAppDelegate.m; sourceTree = "<group>"; };
+		8AC9F0E213FED7950042155C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8AC9F0E513FED7950042155C /* ArtHoursTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtHoursTimer.xcdatamodel; sourceTree = "<group>"; };
+		8AC9F0EC13FED7960042155C /* ArtHoursTimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtHoursTimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC9F0F213FED7960042155C /* ArtHoursTimerTests-Info.plist */ = {isa = PBXFileReference; path = "ArtHoursTimerTests-Info.plist"; sourceTree = "<group>"; };
+		8AC9F0F413FED7960042155C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AC9F0F613FED7960042155C /* ArtHoursTimerTests-Prefix.pch */ = {isa = PBXFileReference; path = "ArtHoursTimerTests-Prefix.pch"; sourceTree = "<group>"; };
+		8AC9F0F713FED7960042155C /* ArtHoursTimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtHoursTimerTests.h; sourceTree = "<group>"; };
+		8AC9F0F913FED7960042155C /* ArtHoursTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtHoursTimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AC9F0C513FED7950042155C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC9F0CD13FED7950042155C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC9F0E813FED7950042155C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC9F0ED13FED7960042155C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AC9F0BD13FED7950042155C = {
+			isa = PBXGroup;
+			children = (
+				8AC9F0D213FED7950042155C /* ArtHoursTimer */,
+				8AC9F0F013FED7960042155C /* ArtHoursTimerTests */,
+				8AC9F0CB13FED7950042155C /* Frameworks */,
+				8AC9F0C913FED7950042155C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC9F0C913FED7950042155C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9F0C813FED7950042155C /* ArtHoursTimer.app */,
+				8AC9F0EC13FED7960042155C /* ArtHoursTimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AC9F0CB13FED7950042155C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9F0CC13FED7950042155C /* Cocoa.framework */,
+				8AC9F0CE13FED7950042155C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AC9F0CE13FED7950042155C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9F0CF13FED7950042155C /* AppKit.framework */,
+				8AC9F0D013FED7950042155C /* CoreData.framework */,
+				8AC9F0D113FED7950042155C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8AC9F0D213FED7950042155C /* ArtHoursTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9F0DE13FED7950042155C /* ArtHoursTimerAppDelegate.h */,
+				8AC9F0DF13FED7950042155C /* ArtHoursTimerAppDelegate.m */,
+				8AC9F0E113FED7950042155C /* MainMenu.xib */,
+				8AC9F0E413FED7950042155C /* ArtHoursTimer.xcdatamodeld */,
+				8AC9F0D313FED7950042155C /* Supporting Files */,
+			);
+			path = ArtHoursTimer;
+			sourceTree = "<group>";
+		};
+		8AC9F0D313FED7950042155C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9F0D413FED7950042155C /* ArtHoursTimer-Info.plist */,
+				8AC9F0D513FED7950042155C /* InfoPlist.strings */,
+				8AC9F0D813FED7950042155C /* ArtHoursTimer-Prefix.pch */,
+				8AC9F0D913FED7950042155C /* main.m */,
+				8AC9F0DB13FED7950042155C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AC9F0F013FED7960042155C /* ArtHoursTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9F0F713FED7960042155C /* ArtHoursTimerTests.h */,
+				8AC9F0F913FED7960042155C /* ArtHoursTimerTests.m */,
+				8AC9F0F113FED7960042155C /* Supporting Files */,
+			);
+			path = ArtHoursTimerTests;
+			sourceTree = "<group>";
+		};
+		8AC9F0F113FED7960042155C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9F0F213FED7960042155C /* ArtHoursTimerTests-Info.plist */,
+				8AC9F0F313FED7960042155C /* InfoPlist.strings */,
+				8AC9F0F613FED7960042155C /* ArtHoursTimerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AC9F0C713FED7950042155C /* ArtHoursTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC9F0FD13FED7960042155C /* Build configuration list for PBXNativeTarget "ArtHoursTimer" */;
+			buildPhases = (
+				8AC9F0C413FED7950042155C /* Sources */,
+				8AC9F0C513FED7950042155C /* Frameworks */,
+				8AC9F0C613FED7950042155C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtHoursTimer;
+			productName = ArtHoursTimer;
+			productReference = 8AC9F0C813FED7950042155C /* ArtHoursTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AC9F0EB13FED7950042155C /* ArtHoursTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC9F10013FED7960042155C /* Build configuration list for PBXNativeTarget "ArtHoursTimerTests" */;
+			buildPhases = (
+				8AC9F0E713FED7950042155C /* Sources */,
+				8AC9F0E813FED7950042155C /* Frameworks */,
+				8AC9F0E913FED7950042155C /* Resources */,
+				8AC9F0EA13FED7950042155C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AC9F0EF13FED7960042155C /* PBXTargetDependency */,
+			);
+			name = ArtHoursTimerTests;
+			productName = ArtHoursTimerTests;
+			productReference = 8AC9F0EC13FED7960042155C /* ArtHoursTimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AC9F0BF13FED7950042155C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "FEA Merchandising";
+			};
+			buildConfigurationList = 8AC9F0C213FED7950042155C /* Build configuration list for PBXProject "ArtHoursTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AC9F0BD13FED7950042155C;
+			productRefGroup = 8AC9F0C913FED7950042155C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AC9F0C713FED7950042155C /* ArtHoursTimer */,
+				8AC9F0EB13FED7950042155C /* ArtHoursTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AC9F0C613FED7950042155C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC9F0D713FED7950042155C /* InfoPlist.strings in Resources */,
+				8AC9F0DD13FED7950042155C /* Credits.rtf in Resources */,
+				8AC9F0E313FED7950042155C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC9F0E913FED7950042155C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC9F0F513FED7960042155C /* InfoPlist.strings in Resources */,
+				8AC9F0F813FED7960042155C /* ArtHoursTimerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AC9F0EA13FED7950042155C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AC9F0C413FED7950042155C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC9F0DA13FED7950042155C /* main.m in Sources */,
+				8AC9F0E013FED7950042155C /* ArtHoursTimerAppDelegate.m in Sources */,
+				8AC9F0E613FED7950042155C /* ArtHoursTimer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC9F0E713FED7950042155C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC9F0FA13FED7960042155C /* ArtHoursTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AC9F0EF13FED7960042155C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AC9F0C713FED7950042155C /* ArtHoursTimer */;
+			targetProxy = 8AC9F0EE13FED7960042155C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AC9F0D513FED7950042155C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC9F0D613FED7950042155C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AC9F0DB13FED7950042155C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC9F0DC13FED7950042155C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8AC9F0E113FED7950042155C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC9F0E213FED7950042155C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8AC9F0F313FED7960042155C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC9F0F413FED7960042155C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AC9F0FB13FED7960042155C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8AC9F0FC13FED7960042155C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8AC9F0FE13FED7960042155C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtHoursTimer/ArtHoursTimer-Prefix.pch";
+				INFOPLIST_FILE = "ArtHoursTimer/ArtHoursTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AC9F0FF13FED7960042155C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtHoursTimer/ArtHoursTimer-Prefix.pch";
+				INFOPLIST_FILE = "ArtHoursTimer/ArtHoursTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AC9F10113FED7960042155C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArtHoursTimer.app/Contents/MacOS/ArtHoursTimer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtHoursTimerTests/ArtHoursTimerTests-Prefix.pch";
+				INFOPLIST_FILE = "ArtHoursTimerTests/ArtHoursTimerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8AC9F10213FED7960042155C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ArtHoursTimer.app/Contents/MacOS/ArtHoursTimer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtHoursTimerTests/ArtHoursTimerTests-Prefix.pch";
+				INFOPLIST_FILE = "ArtHoursTimerTests/ArtHoursTimerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AC9F0C213FED7950042155C /* Build configuration list for PBXProject "ArtHoursTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC9F0FB13FED7960042155C /* Debug */,
+				8AC9F0FC13FED7960042155C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AC9F0FD13FED7960042155C /* Build configuration list for PBXNativeTarget "ArtHoursTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC9F0FE13FED7960042155C /* Debug */,
+				8AC9F0FF13FED7960042155C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AC9F10013FED7960042155C /* Build configuration list for PBXNativeTarget "ArtHoursTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC9F10113FED7960042155C /* Debug */,
+				8AC9F10213FED7960042155C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AC9F0E413FED7950042155C /* ArtHoursTimer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AC9F0E513FED7950042155C /* ArtHoursTimer.xcdatamodel */,
+			);
+			currentVersion = 8AC9F0E513FED7950042155C /* ArtHoursTimer.xcdatamodel */;
+			path = ArtHoursTimer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8AC9F0BF13FED7950042155C /* Project object */;
+}
